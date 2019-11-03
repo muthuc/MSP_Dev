@@ -207,3 +207,16 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.
 
 !ENTRY org.eclipse.equinox.p2.repository 4 0 2019-11-03 17:45:02.131
 !MESSAGE An error occurred while downloading http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2mac/content.xml.xz. The cache file C:\ti\ccsv8\eclipse\p2\org.eclipse.equinox.p2.repository\cache\downloading\1098324616 could not be renamed to C:\ti\ccsv8\eclipse\p2\org.eclipse.equinox.p2.repository\cache\1098324616.
+!SESSION 2019-11-03 18:03:12.099 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2019-11-03 18:03:13.581
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2019-11-03 18:03:13.588
+!MESSAGE debugServerDir=C:/ti/ccsv8/ccs_base/DebugServer
