@@ -2165,3 +2165,12 @@ gmake[1]: 'Timer_Example.out' is up to date.
 gmake[1]: Nothing to be done for 'secondary-outputs'.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project Timer_Example ****
+
+"D:\\Code Composer\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Timer_Example.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****
