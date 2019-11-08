@@ -83,3 +83,11 @@
 /Timer_Example/Debug/driverlib/MSP430FR5xx_6xx/timer_b.obj
 /Timer_Example/Debug/driverlib/MSP430FR5xx_6xx/tlv.obj
 /Timer_Example/Debug/driverlib/MSP430FR5xx_6xx/wdt_a.obj
+/Timer_Example/.launches/Timer_Example.launch
+/Timer_Example/Debug/hal_LCD.obj
+/Timer_Example/Debug/main.obj
+/Timer_Example/Debug/StopWatchMode.obj
+/Timer_Example/Debug/TempSensorMode.obj
+/Timer_Example/Debug/Timer_Example.map
+/Timer_Example/Debug/Timer_Example.out
+/Timer_Example/Debug/Timer_Example_linkInfo.xml
