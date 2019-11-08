@@ -1,3 +1,20 @@
 /.metadata/
 
 /.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+/.metadata/.log
+/.metadata/.plugins/org.eclipse.cdt.ui/global-build.log
+/.metadata/.plugins/org.eclipse.core.resources/.projects/Sample_Code/.indexes/33/a3/19/history.index
+/.metadata/.plugins/org.eclipse.core.resources/.projects/Sample_Code/.indexes/33/history.index
+/.metadata/.plugins/org.eclipse.core.resources/.projects/Sample_Code/.indexes/properties.index
+/.metadata/.plugins/org.eclipse.core.resources/.projects/Sample_Code/.markers
+/.metadata/.plugins/org.eclipse.core.resources/.projects/Sample_Code/com.ti.ccstudio.project.core/Debug/advice.xml
+/.metadata/.plugins/org.eclipse.core.resources/.projects/Sample_Code/com.ti.ccstudio.project.core/Debug/benchmarks.xml
+/.metadata/.plugins/org.eclipse.core.resources/.projects/Sample_Code/com.ti.ccstudio.project.core/Debug/linkerFlags.txt
+/.metadata/.plugins/org.eclipse.core.resources/.projects/Sample_Code/com.ti.ccstudio.project.core/Debug/symbols.txt
+/.metadata/.plugins/org.eclipse.core.resources/.projects/Sample_Code/org.eclipse.egit.core/GitProjectData.properties
+/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.core.prj-Sample_Code.prefs
+/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.managedbuilder.core.prefs
+/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml
+/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
