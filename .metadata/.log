@@ -340,3 +340,28 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.
 
 !ENTRY com.ti.ccstudio.debug.server 4 214294189 2019-11-08 21:14:53.769
 !MESSAGE Unexpected CCS exit detected [11/3/19 6:08 PM]!!!
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-08 22:38:23.299
+!MESSAGE Indexed 'Timer_Example' (32 sources, 42 headers) in 0.523 sec: 247 declarations; 1,095 references; 7 unresolved inclusions; 4 syntax errors; 573 unresolved names (30%)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-08 22:39:16.001
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: No USB FET was found
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-08 22:39:16.350
+!MESSAGE DS_ERROR: Error initializing emulator:
+No USB FET was found
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-08 22:39:21.265
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: No USB FET was found
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-11-08 22:39:21.279
+!MESSAGE DS_ERROR: Error initializing emulator:
+No USB FET was found
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-08 22:39:44.277
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-11-08 22:39:44.282
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
