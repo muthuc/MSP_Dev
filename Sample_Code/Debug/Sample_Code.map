@@ -1,7 +1,7 @@
 ******************************************************************************
                   MSP430 Linker PC v18.1.1                     
 ******************************************************************************
->> Linked Sun Nov  3 18:03:37 2019
+>> Linked Sun Nov  3 18:08:58 2019
 
 OUTPUT FILE NAME:   <Sample_Code.out>
 ENTRY POINT SYMBOL: "_c_int00_noargs_mpu"  address: 000046a8
@@ -373,12 +373,12 @@ MODULE SUMMARY
     +--+----------------------------+------+---------+---------+
        Total:                       2356   28        0      
                                                             
-    C:\ti\ccsv8\ccs_base\msp430\lib\FR59xx\MSPMPU_INIT_LIB_CCS_msp430_large_code_restricted_data.lib
+    D:\Code Composer\ccsv8\ccs_base\msp430\lib\FR59xx\MSPMPU_INIT_LIB_CCS_msp430_large_code_restricted_data.lib
        mpu_init.o                   44     0         0      
     +--+----------------------------+------+---------+---------+
        Total:                       44     0         0      
                                                             
-    C:\ti\ccsv8\tools\compiler\ti-cgt-msp430_18.1.1.LTS\lib\rts430x_lc_rd_eabi.lib
+    D:\Code Composer\ccsv8\tools\compiler\ti-cgt-msp430_18.1.1.LTS\lib\rts430x_lc_rd_eabi.lib
        copy_decompress_lzss.c.obj   118    0         0      
        div32u.asm.obj               88     0         0      
        autoinit.c.obj               84     0         0      
