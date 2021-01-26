@@ -365,3 +365,152 @@ No USB FET was found
 
 !ENTRY org.eclipse.launchbar.core 2 0 2019-11-08 22:39:44.282
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2021-01-27 00:46:53.711 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2021-01-27 00:47:00.015
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2021-01-27 00:47:00.022
+!MESSAGE debugServerDir=C:/ti/ccsv8/ccs_base/DebugServer
+
+!ENTRY org.eclipse.ui.workbench 4 2 2021-01-27 00:47:19.852
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at com.ti.ccstudio.project.core.internal.ProjectCorePlugin.log(ProjectCorePlugin.java:277)
+	at com.ti.ccstudio.buildmodel.BuildModelLoader.loadFamilyDefinition(BuildModelLoader.java:229)
+	at com.ti.ccstudio.buildmodel.BuildModelLoader.buildDefsLoaded(BuildModelLoader.java:123)
+	at com.ti.ccstudio.buildmodel.BuildModelLoader.buildDefsLoaded(BuildModelLoader.java:117)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.loadExtensionsSynchronized(ManagedBuildManager.java:2215)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.loadExtensions(ManagedBuildManager.java:2126)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getExtensionBuilderMapInternal(ManagedBuildManager.java:475)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getExtensionBuilder(ManagedBuildManager.java:669)
+	at com.ti.ccstudio.buildmodel.BuildModelLoader.initialize(BuildModelLoader.java:100)
+	at com.ti.ccstudio.project.ui.internal.ProjectUIStartup.earlyStartup(ProjectUIStartup.java:25)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:77)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2747)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.ui 4 0 2021-01-27 00:47:19.861
+!MESSAGE Unable to execute early startup code for the org.eclipse.ui.IStartup extension contributed by the 'com.ti.ccstudio.project.ui' plug-in.
+!STACK 0
+java.lang.NullPointerException
+	at com.ti.ccstudio.project.core.internal.ProjectCorePlugin.log(ProjectCorePlugin.java:277)
+	at com.ti.ccstudio.buildmodel.BuildModelLoader.loadFamilyDefinition(BuildModelLoader.java:229)
+	at com.ti.ccstudio.buildmodel.BuildModelLoader.buildDefsLoaded(BuildModelLoader.java:123)
+	at com.ti.ccstudio.buildmodel.BuildModelLoader.buildDefsLoaded(BuildModelLoader.java:117)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.loadExtensionsSynchronized(ManagedBuildManager.java:2215)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.loadExtensions(ManagedBuildManager.java:2126)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getExtensionBuilderMapInternal(ManagedBuildManager.java:475)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getExtensionBuilder(ManagedBuildManager.java:669)
+	at com.ti.ccstudio.buildmodel.BuildModelLoader.initialize(BuildModelLoader.java:100)
+	at com.ti.ccstudio.project.ui.internal.ProjectUIStartup.earlyStartup(ProjectUIStartup.java:25)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:77)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2747)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2021-01-27 00:47:19.950
+!MESSAGE Exception in update check thread
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadIndexFile(AbstractRepositoryManager.java:735)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:657)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+!SESSION 2021-01-27 00:47:39.668 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2021-01-27 00:47:41.055
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2021-01-27 00:47:41.062
+!MESSAGE debugServerDir=C:/ti/ccsv8/ccs_base/DebugServer
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-01-27 00:48:08.655
+!MESSAGE Indexed 'Timer_Example' (32 sources, 48 headers) in 2.1 sec: 4,564 declarations; 14,432 references; 0 unresolved inclusions; 5 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.ti.ccstudio.errorparser 4 0 2021-01-27 00:48:10.221
+!MESSAGE An internal error was logged by 'com.ti.ccstudio.errorparser'.
+!STACK 0
+org.jsoup.HttpStatusException: HTTP error fetching URL. Status=410, URL=https://processors.wiki.ti.com/index.php/Compiler/diagnostic_messages/
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:590)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:587)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:540)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:227)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:216)
+	at com.ti.ccstudio.errorparser.parsers.PatternProvider$PatternData.fillup(PatternProvider.java:261)
+	at com.ti.ccstudio.errorparser.parsers.PatternProvider$PatternData.findMatch(PatternProvider.java:145)
+	at com.ti.ccstudio.errorparser.parsers.PatternProvider.getEmdUrl(PatternProvider.java:465)
+	at com.ti.ccstudio.errorparser.parsers.ErrorPattern.recordError(ErrorPattern.java:77)
+	at com.ti.ccstudio.errorparser.parsers.CoffErrorParser.processPendingMesg(CoffErrorParser.java:259)
+	at com.ti.ccstudio.errorparser.parsers.CoffErrorParser.doProcessLine(CoffErrorParser.java:103)
+	at com.ti.ccstudio.errorparser.parsers.BaseErrorParser.processLine(BaseErrorParser.java:307)
+	at org.eclipse.cdt.core.errorparsers.ErrorParserNamedWrapper.processLine(ErrorParserNamedWrapper.java:48)
+	at com.ti.ccstudio.project.core.internal.build.ProjectAdviceManager$AdviceContentHandler.endElement(ProjectAdviceManager.java:124)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:328)
+	at com.ti.ccstudio.project.core.internal.build.ProjectAdviceManager.processAdvice(ProjectAdviceManager.java:489)
+	at com.ti.ccstudio.project.core.internal.build.ProjectAdviceManager.handleAdviceChangingEvent(ProjectAdviceManager.java:450)
+	at com.ti.ccstudio.project.core.internal.build.ProjectAdviceManager.handleAdviceChangingEvent(ProjectAdviceManager.java:438)
+	at com.ti.ccstudio.project.core.internal.build.ProjectAdviceManager.onProjectImported(ProjectAdviceManager.java:414)
+	at com.ti.common.project.core.internal.events.ProjectStateMonitor$ResourceChangeListener$6.visit(ProjectStateMonitor.java:389)
+	at com.ti.common.project.core.internal.events.ProjectStateMonitor.notifyListeners(ProjectStateMonitor.java:847)
+	at com.ti.common.project.core.internal.events.ProjectStateMonitor.access$2(ProjectStateMonitor.java:836)
+	at com.ti.common.project.core.internal.events.ProjectStateMonitor$ResourceChangeListener.resourceChanged(ProjectStateMonitor.java:387)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:360)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:138)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.ui 2 2 2021-01-27 00:48:42.962
+!MESSAGE com.ti.ccstudio.system.setup.ui.views.TargetConfigurationView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY com.ti.ccstudio.debug 1 0 2021-01-27 00:48:53.032
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: No USB FET was found
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2021-01-27 00:48:53.225
+!MESSAGE DS_ERROR: Error initializing emulator:
+No USB FET was found
+
+!ENTRY com.ti.ccstudio.debug 1 0 2021-01-27 00:48:59.074
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: No USB FET was found
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2021-01-27 00:48:59.089
+!MESSAGE DS_ERROR: Error initializing emulator:
+No USB FET was found
